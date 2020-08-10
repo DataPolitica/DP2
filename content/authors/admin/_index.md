@@ -18,9 +18,9 @@ education:
   - course: Especialización en Estadística Aplicada
     institution: Escuela Nacional de Estadística e Informática - ENEI
     year: "2018"
-  - course: BSc in Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    year: "2008"
+  - course: Ciencia Política y Gobierno
+    institution: Pontificia Universidad Católica del Perú
+    year: "2016"
 social:
 - icon: envelope
   icon_pack: fas
