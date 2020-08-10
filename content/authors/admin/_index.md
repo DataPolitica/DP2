@@ -33,7 +33,7 @@ social:
   link: https://www.linkedin.com/in/christianchr/
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: https://github.com/DataPolitica/salidas
 email: ''
 user_groups:
 - Researchers
