@@ -7,7 +7,7 @@ role: Datos para decidir
 organizations: []
 bio: Un espacio para el aprendizaje de estadística aplicada
 interests:
-- Docencia en estadística aplicada al análisis social
+- Docencia en estadística para ciencias sociales
 - Investigación en gestión social
 - Consultoría estadística
 education:
