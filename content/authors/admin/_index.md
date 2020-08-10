@@ -22,15 +22,15 @@ education:
     institution: Pontificia Universidad Católica del Perú
     year: "2016"
 social:
-- icon: linkedin
-  icon_pack: fab
-  link: https://www.linkedin.com/in/christianchr/
 - icon: youtube
   icon_pack: fab
   link: https://www.youtube.com/channel/UCjsP5ejsSyUchRl2oA96J3A
-- icon: google-scholar
-  icon_pack: ai
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+- icon: facebook
+  icon_pack: fab
+  link: https://www.facebook.com/datapoliticaCR
+- icon: linkedin
+  icon_pack: fab
+  link: https://www.linkedin.com/in/christianchr/
 - icon: github
   icon_pack: fab
   link: https://github.com/gcushen
