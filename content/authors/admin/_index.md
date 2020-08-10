@@ -4,7 +4,8 @@ authors:
 - admin
 superuser: true
 role: Datos para decidir
-organizations: []
+organizations:
+- christian.chiroque@pucp.edu.pe
 bio: Un espacio para el aprendizaje de estadística aplicada
 interests:
 - Docencia en estadística aplicada al análisis social
