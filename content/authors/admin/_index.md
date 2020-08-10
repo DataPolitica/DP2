@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Data Política
 
 # Username (this should match the folder name)
 authors:
@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position
-role: Professor of Artificial Intelligence
+role: Datos para decidir
 
 # Organizations/Affiliations
 organizations:
@@ -70,6 +70,6 @@ user_groups:
 - Visitors
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Hola, mi nombre es Christian Chiroque y bienvenidos a Data Política. Aquí podrás encontrar información que te ayudará en el aprendizaje de estadística aplicada al análisis político y social. También puedes chequear directamente mi canal de Youtube Data Política, espacio en el cual vengo compartiendo tutoriales sobre los principales temas en estadística aplicada usando el software R Studio y SPSS.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+Esta es un proyecto que vengo implementando desde mayo del 2019, en el marco de mi labor docente en la Facultad de Ciencias Sociales de la Pontificia Universidad Católica del Perú - PUCP.
