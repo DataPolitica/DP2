@@ -9,7 +9,7 @@ bio: Un espacio para el aprendizaje de estadística aplicada
 interests:
 - Docencia en estadística aplicada al análisis social
 - Investigación en gestión social
-- Capacitación
+- Consultoría estadística
 education:
   courses:
   - course: Maestría en Gerencia Social
