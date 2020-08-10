@@ -23,7 +23,7 @@ education:
     year: "2016"
 social:
 - icon: linkedin
-  icon_pack: fas
+  icon_pack: fab
   link: https://www.linkedin.com/in/christianchr/
 - icon: twitter
   icon_pack: fab
