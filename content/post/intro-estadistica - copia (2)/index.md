@@ -13,6 +13,10 @@ Academic is designed to give technical content creators a seamless experience. Y
 **Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.**
 
 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
 ## IntroducciÃ³n
 
 Te sugiero ver el siguiente **tutorial** y luego aplicar los comandos de esta :
