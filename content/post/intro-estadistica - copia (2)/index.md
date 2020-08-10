@@ -12,6 +12,41 @@ Academic is designed to give technical content creators a seamless experience. Y
 
 **Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.**
 
+
+## IntroducciÃ³n
+
+Te sugiero ver el siguiente **tutorial** y luego aplicar los comandos de esta :
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-p02G7NXlSk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Pasos previos
+
+Solicitamos nuestra base de datos:
+
+```{r}
+library(rio)
+baseSOSS="https://github.com/DataPolitica/salidas/raw/master/Data/trabajadores.sav"
+trabajadores=import(baseSOSS)
+```
+
+Identificamos las variables que tenemos:
+
+```{r}
+names(trabajadores)
+```
+
+### Generamos nuestro modelo de regresiÃ³n
+
+```{r}
+modelo1=lm(salario_actual~salario_inicial,data=trabajadores)
+summary(modelo1)
+```
+
+Para realizar
+
+
+
+
 On this page, you'll find some examples of the types of technical content that can be rendered with Academic.
 
 ## Examples
