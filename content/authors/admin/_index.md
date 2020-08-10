@@ -25,9 +25,9 @@ social:
 - icon: linkedin
   icon_pack: fab
   link: https://www.linkedin.com/in/christianchr/
-- icon: twitter
+- icon: youtube
   icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
+  link: https://www.youtube.com/channel/UCjsP5ejsSyUchRl2oA96J3A
 - icon: google-scholar
   icon_pack: ai
   link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
