@@ -1,6 +1,6 @@
 ---
-title: Writing technical content in Academic
-date: 2019-07-12
+title: Introducción a la Estadística
+date: 2020-08-01
 math: true
 diagram: true
 image:
@@ -289,8 +289,6 @@ Here are some examples using the `icon` shortcode to render icons:
 
 renders as
 
-{{< icon name="terminal" pack="fas" >}} Terminal  
-{{< icon name="python" pack="fab" >}} Python  
 {{< icon name="r-project" pack="fab" >}} R
 
-### Did you find this page helpful? Consider sharing it 🙌
+
