@@ -8,6 +8,8 @@ image:
   caption: 'Image credit: [**John Moeses Bauan**](https://unsplash.com/photos/OGZtQF8iC0g)'
 ---
 
+- [Regresión Lineal Simple](https://datapolitica.github.io/salidas/regresion_lineal_simple.html)
+
 Academic is designed to give technical content creators a seamless experience. You can focus on the content and Academic handles the rest.
 
 **Highlight your code snippets, take notes on math classes, and draw diagrams from textual representation.**
