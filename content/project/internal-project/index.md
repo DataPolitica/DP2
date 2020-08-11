@@ -1,6 +1,6 @@
 ---
 title: Canal Data Política
-summary: Plataforma donde encontrarás tutoriales de estadística aplicada.
+summary: Plataforma donde encontrarás tutoriales de estadística aplicada usando los software R Studio y SPSS.
 tags:
 - Canal Youtube
 - Estadística aplicada
