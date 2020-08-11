@@ -9,12 +9,12 @@
   weight = 10
 
 [[main]]
-  name = "Manual"
+  name = "Estadística para CCSS"
   url = "#posts"
   weight = 20
 
 [[main]]
-  name = "Artículos"
+  name = "Notas"
   url = "#featured"
   weight = 30
 
