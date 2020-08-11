@@ -1,12 +1,14 @@
 ---
-title: Internal Project2
-summary: An example of using the in-built project page.
+title: Cofundador de Leyendo el Poder (Podcast)
+summary: Leyendo el poder es un grupo de reflexión y diálogo sobre nuevas perspectivas de la Ciencia Política y los Estudios Internacionales. 
 tags:
-- Deep Learning
-date: "2016-04-27T00:00:00Z"
+- Ciencia Política
+- Relaciones Internacionales
+- Podcast
+date: "2020-08-10T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: "https://www.youtube.com/channel/UCYLScfkcFG7ZDE5th33fY2A"
 
 image:
   caption: Photo by rawpixel on Unsplash
