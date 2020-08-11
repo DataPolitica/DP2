@@ -3,7 +3,7 @@ active = true
 headless = true
 subtitle = ""
 title = "Proyectos"
-weight = 65
+weight = "120"
 widget = "portfolio"
 [advanced]
 css_class = ""
