@@ -1,8 +1,10 @@
 ---
 title: Canal Data Política
-summary: Proyecto de difusión de información sobre estadística aplicada a las ciencias sociales.
+summary: Plataforma donde encontrarás tutoriales de estadística aplicada.
 tags:
 - Canal Youtube
+- Estadística aplicada
+- Ciencia Política
 date: "2020-08-11T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
