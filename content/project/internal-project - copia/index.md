@@ -1,6 +1,6 @@
 ---
-title: Cofundador de Leyendo el Poder (Podcast)
-summary: Leyendo el poder es un grupo de reflexión y diálogo sobre nuevas perspectivas de la Ciencia Política y los Estudios Internacionales. 
+title: Leyendo el Poder
+summary: Cofundador de Leyendo el Poder, el cual es un grupo de reflexión y diálogo sobre nuevas perspectivas de la Ciencia Política y los Estudios Internacionales. 
 tags:
 - Ciencia Política
 - Relaciones Internacionales
