@@ -2,11 +2,11 @@
 title: Canal Data Política
 summary: Proyecto de difusión de información sobre estadística aplicada a las ciencias sociales.
 tags:
-- Canal Yoube
-date: "2016-04-27T00:00:00Z"
+- Canal Youtube
+date: "2020-08-11T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: ""
+external_link: "https://www.youtube.com/channel/UCjsP5ejsSyUchRl2oA96J3A"
 
 image:
   caption: Photo by Christian Chiroque
