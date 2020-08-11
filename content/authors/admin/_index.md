@@ -6,21 +6,6 @@ superuser: true
 role: Datos para decidir
 organizations: []
 bio: Un espacio para el aprendizaje de estadística aplicada
-interests:
-- Docencia en estadística para ciencias sociales
-- Investigación en gestión social
-- Consultoría estadística
-education:
-  courses:
-  - course: Maestría en Gerencia Social
-    institution: Pontificia Universidad Católica del Perú
-    year: "2020"
-  - course: Especialización en Estadística Aplicada
-    institution: Escuela Nacional de Estadística e Informática - ENEI
-    year: "2018"
-  - course: Ciencia Política y Gobierno
-    institution: Pontificia Universidad Católica del Perú
-    year: "2016"
 social:
 - icon: youtube
   icon_pack: fab
