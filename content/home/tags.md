@@ -3,7 +3,7 @@ active = true
 headless = true
 subtitle = ""
 title = "Lo más visto"
-weight = 120
+weight = "130"
 widget = "tag_cloud"
 [content]
 count = 20
