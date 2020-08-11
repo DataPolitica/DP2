@@ -9,18 +9,18 @@
   weight = 10
 
 [[main]]
-  name = "Tutoriales"
+  name = "Manual"
   url = "#posts"
   weight = 20
 
 [[main]]
-  name = "Proyectos"
-  url = "#projects"
+  name = "Artículos"
+  url = "#featured"
   weight = 30
 
 [[main]]
-  name = "Artículos"
-  url = "#featured"
+  name = "Proyectos"
+  url = "#projects"
   weight = 40
 
 [[main]]
