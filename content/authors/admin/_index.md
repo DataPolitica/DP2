@@ -1,11 +1,11 @@
 ---
-title: Data Política
+title: Christian Chiroque
 authors:
 - admin
 superuser: true
-role: Datos para decidir
+role: Politólogo 
 organizations: []
-bio: Un espacio para el aprendizaje de estadística aplicada
+bio: Politólogo con estudios de maestría en Gerencia Social y especialización en Estadística Aplicada.
 social:
 - icon: youtube
   icon_pack: fab
