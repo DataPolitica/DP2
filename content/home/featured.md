@@ -2,7 +2,7 @@
 active = true
 headless = true
 subtitle = ""
-title = "Notas"
+title = "Docencia"
 weight = 80
 widget = "featured"
 [advanced]
