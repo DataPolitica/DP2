@@ -5,10 +5,11 @@ tags:
 - COVID-19
 - Dashboard
 - Observatorio
+- Data Studio
 date: "2020-08-09T00:00:00Z"
 
 # Optional external URL for project (replaces project detail page).
-external_link: "https://www.youtube.com/channel/UCYLScfkcFG7ZDE5th33fY2A"
+external_link: "https://datastudio.google.com/u/0/reporting/11IOAfZ3_p3jdRtI-ctXHOCqCrf_SmqWa"
 
 image:
   caption: Photo by rawpixel on Unsplash
