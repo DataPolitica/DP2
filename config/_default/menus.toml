@@ -9,12 +9,7 @@
   weight = 10
 
 [[main]]
-  name = "Estadística para CCSS"
-  url = "#posts"
-  weight = 20
-
-[[main]]
-  name = "Notas"
+  name = "Docencia"
   url = "#featured"
   weight = 30
 
@@ -24,7 +19,12 @@
   weight = 40
 
 [[main]]
-  name = "Sobre el autor"
+  name = "Notas"
+  url = "#posts"
+  weight = 50
+
+[[main]]
+  name = "CV"
   url = "files/cv.pdf"
   weight = 70
 
