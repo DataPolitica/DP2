@@ -25,8 +25,8 @@ user_groups:
 - Visitors
 
 ---
-Hola, mi nombre es Christian Chiroque y bienvenidos a Data Política. Aquí podrás encontrar información que te ayudará en el aprendizaje de estadística aplicada al análisis político y social. También puedes chequear directamente mi canal de Youtube Data Política, plataforma en la cual vengo compartiendo tutoriales sobre los principales temas en estadística aplicada usando el software R Studio y SPSS.
+Bienvenidos a Data Política, aquí podrás encontrar información que te ayudará en el aprendizaje de estadística aplicada al análisis político y social, usando los software R Studio y SPSS. Este es un proyecto implementado por Christian Chiroque, politólogo con estudios de Maestría en Gerencia Social por la Pontificia Universidad Católica del Perú. 
 
-Este es un proyecto que vengo implementando desde mayo del 2019, en el marco de mi labor docente en la Facultad de Ciencias Sociales de la Pontificia Universidad Católica del Perú - PUCP.
+Este proyecto, creado en mayo del 2019, tiene como principal objertivo la difusión de estadística aplicada al análisis social, la docencia universitaria y la realización de programas de capacitación. 
 
 Cualquier consulta pueden escribir a: christian.chiroque@pucp.edu.pe
