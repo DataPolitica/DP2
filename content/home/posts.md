@@ -2,8 +2,8 @@
 active = true
 headless = true
 subtitle = ""
-title = "Estadística para ciencias sociales"
-weight = 60
+title = "Docencia"
+weight = "125"
 widget = "pages"
 [advanced]
 css_class = ""
