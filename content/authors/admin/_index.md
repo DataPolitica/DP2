@@ -4,8 +4,7 @@ authors:
 - admin
 superuser: true
 role: Politólogo
-organizations:
-- Pontificia Universidad Católica del Perú
+organizations: []
 bio: Politólogo con estudios de maestría en Gerencia Social y especialización en Estadística
   Aplicada.
 social:
