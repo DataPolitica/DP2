@@ -3,9 +3,11 @@ title: Christian Chiroque
 authors:
 - admin
 superuser: true
-role: Politólogo 
-organizations: []
-bio: Politólogo con estudios de maestría en Gerencia Social y especialización en Estadística Aplicada.
+role: Politólogo
+organizations:
+- Pontificia Universidad Católica del Perú
+bio: Politólogo con estudios de maestría en Gerencia Social y especialización en Estadística
+  Aplicada.
 social:
 - icon: youtube
   icon_pack: fab
