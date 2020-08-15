@@ -19,7 +19,7 @@ In this tutorial, I'll share my top 10 tips for getting started with Academic:
 ## Tip 1
 
 
-```{r setup, include=FALSE}
+```{r setup, include=TRUE}
 ```
 
 
