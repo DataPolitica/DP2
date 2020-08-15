@@ -18,6 +18,12 @@ In this tutorial, I'll share my top 10 tips for getting started with Academic:
 
 ## Tip 1
 
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
 ## IntroducciÃ³n
 
 Te sugiero ver el siguiente **tutorial** y luego aplicar los comandos de esta :
