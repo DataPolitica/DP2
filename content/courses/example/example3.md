@@ -68,12 +68,15 @@ Identificamos las variables que tenemos:
     ## Multiple R-squared:  0.7746, Adjusted R-squared:  0.7741 
     ## F-statistic:  1622 on 1 and 472 DF,  p-value: < 2.2e-16
 
-    hist(trabajadores$salario_actual)
-
-![](regresion_lineal_simple_files/figure-markdown_strict/unnamed-chunk-4-1.png)
+    
 
 Para realizar el análisis debemos seguir los pasos de nuestro
 flujograma:
+
+hist(trabajadores$salario_actual)
+
+![](regresion_lineal_simple_files/figure-markdown_strict/unnamed-chunk-4-1.png)
+
 
 ### Identificamos los coeficientes y construimos la ecuación
 
