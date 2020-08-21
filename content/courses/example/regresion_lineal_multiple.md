@@ -122,4 +122,4 @@ prevent printing of the R code that generated the plot.
 
     boxplot(trabajadores$salario_actual)
 
-![texto](images/prueba.png)
+![texto](content/courses/example/images/prueba.png)
