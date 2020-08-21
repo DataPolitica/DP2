@@ -43,7 +43,7 @@ summary(modelo1)
 
 Para realizar el análisis debemos seguir los pasos de nuestro flujograma:
 
-```{r, include=TRUE}
+```{r, include=TRUE, fig.cap='Histrogramita', fig.asp=0.7, fig.width=8}
 hist(trabajadores$salario_actual)
 ```
 fff

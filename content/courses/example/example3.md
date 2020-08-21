@@ -71,11 +71,11 @@ flujograma:
 
     hist(trabajadores$salario_actual)
 
-![](r1_files/figure-markdown_strict/unnamed-chunk-4-1.png) fff
+![Image](r1_files/figure-markdown_strict/unnamed-chunk-4-1.png) fff
 
     boxplot(trabajadores$salario_actual)
 
-![](r1_files/figure-markdown_strict/unnamed-chunk-5-1.png)
+![Image](r1_files/figure-markdown_strict/unnamed-chunk-5-1.png)
 
 ### Identificamos los coeficientes y construimos la ecuación
 
