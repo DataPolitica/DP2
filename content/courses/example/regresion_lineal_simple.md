@@ -13,22 +13,13 @@ esta :
 
 Solicitamos nuestra base de datos:
 
-    library(rio)
-    baseSOSS="https://github.com/DataPolitica/salidas/raw/master/Data/trabajadores.sav"
-    trabajadores=import(baseSOSS)
-
 Identificamos las variables que tenemos:
-
-    names(trabajadores)
 
     ##  [1] "id"              "sexo"            "fechnac"         "educ"           
     ##  [5] "catlab"          "salario_actual"  "salario_inicial" "antiguedad"     
     ##  [9] "experiencia"     "minoría"         "directivo"
 
 ### Generamos nuestro modelo de regresión
-
-    modelo1=lm(salario_actual~salario_inicial,data=trabajadores)
-    summary(modelo1)
 
     ## 
     ## Call:
@@ -52,13 +43,9 @@ Identificamos las variables que tenemos:
 Para realizar el análisis debemos seguir los pasos de nuestro
 flujograma:
 
-    hist(trabajadores$salario_actual)
-
 ![](regresion_lineal_simple_files/figure-markdown_strict/unnamed-chunk-4-1.png)
 
 ### Identificamos los coeficientes y construimos la ecuación
-
-    modelo1$coefficients
 
     ##     (Intercept) salario_inicial 
     ##      1928.20576         1.90945

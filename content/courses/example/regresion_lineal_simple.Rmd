@@ -8,7 +8,7 @@ output: md_document
 [Data Política](https://www.youtube.com/channel/UCjsP5ejsSyUchRl2oA96J3A)
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 ```
 
 ## Introducción
