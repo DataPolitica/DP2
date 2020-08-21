@@ -122,4 +122,4 @@ prevent printing of the R code that generated the plot.
 
     boxplot(trabajadores$salario_actual)
 
-![texto](content/courses/example/images/prueba.png)
+![texto](https://github.com/DataPolitica/DP2/blob/master/content/courses/example/images/prueba.png)
