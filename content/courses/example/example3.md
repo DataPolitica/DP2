@@ -75,7 +75,7 @@ flujograma:
 
 hist(trabajadores$salario_actual)
 
-![Image](regresion_lineal_simple_files/figure-markdown_strict/unnamed-chunk-4-1.png)
+![Image](example/regresion_lineal_simple_files/figure-markdown_strict/unnamed-chunk-4-1.png)
 
 
 ### Identificamos los coeficientes y construimos la ecuación
