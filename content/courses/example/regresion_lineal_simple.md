@@ -8,10 +8,10 @@ draft: false
 menu:
   example:
     parent: Example Topic
-    weight: 3
+    weight: 4
 
 # Prev/next pager order (if `docs_section_pager` enabled in `params.toml`)
-weight: 2
+weight: 4
 ---
 
 [Data
