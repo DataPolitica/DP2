@@ -1,16 +1,16 @@
 ---
-title: "Regresi髇 Lineal Simple"
+title: "Regresi贸n Lineal Simple"
 author: "Christian Chiroque"
 date: "14 de julio de 2020"
 output: md_document
 ---
-[Data Pol韙ica](https://www.youtube.com/channel/UCjsP5ejsSyUchRl2oA96J3A)
+[Data Pol铆tica](https://www.youtube.com/channel/UCjsP5ejsSyUchRl2oA96J3A)
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Introducci髇
+## Introducci贸n
 
 Te sugiero ver el siguiente **tutorial** y luego aplicar los comandos de esta :
 
@@ -32,7 +32,7 @@ Identificamos las variables que tenemos:
 names(trabajadores)
 ```
 
-### Generamos nuestro modelo de regresi髇
+### Generamos nuestro modelo de regresi贸n
 
 ```{r}
 modelo1=lm(salario_actual~salario_inicial,data=trabajadores)
@@ -44,10 +44,10 @@ summary(modelo1)
 hist(trabajadores$salario_actual)
 ```
 
-Para realizar el an醠isis debemos seguir los pasos de nuestro flujograma:
+Para realizar el an谩lisis debemos seguir los pasos de nuestro flujograma:
 
 
-### Identificamos los coeficientes y construimos la ecuaci髇
+### Identificamos los coeficientes y construimos la ecuaci贸n
 
 ```{r}
 modelo1$coefficients
@@ -58,13 +58,13 @@ Recordemos la forma de la ecuaci贸n:
 
 y = a + bx
 
-Entonces, de acuerdo al output, vemos que nuestra ecuaci髇 ser韆 de la siguiente manera:
+Entonces, de acuerdo al output, vemos que nuestra ecuaci贸n ser铆a de la siguiente manera:
 
 Salario actual = 1928.20576 + (1.90945 * Salario inicial)
 
 En donde: 1928.20576 es nuestro intercepto y 1.90945 es nuestra pendiente (b) de x. 
 
-Este 鷏timo se puede interpretar como "el cambio que se presenta en Y por cada unidad que var韆 X". 
+Este 煤ltimo se puede interpretar como "el cambio que se presenta en Y por cada unidad que var铆a X". 
 
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
