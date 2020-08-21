@@ -16,7 +16,6 @@ weight: 2
 
 pelotudos.
 
-
 [Data
 Política](https://www.youtube.com/channel/UCjsP5ejsSyUchRl2oA96J3A)
 
@@ -68,15 +67,12 @@ Identificamos las variables que tenemos:
     ## Multiple R-squared:  0.7746, Adjusted R-squared:  0.7741 
     ## F-statistic:  1622 on 1 and 472 DF,  p-value: < 2.2e-16
 
-    
+    hist(trabajadores$salario_actual)
+
+![](regresion_lineal_simple_files/figure-markdown_strict/unnamed-chunk-4-1.png)
 
 Para realizar el análisis debemos seguir los pasos de nuestro
 flujograma:
-
-hist(trabajadores$salario_actual)
-
-![Image](example/regresion_lineal_simple_files/figure-markdown_strict/unnamed-chunk-4-1.png)
-
 
 ### Identificamos los coeficientes y construimos la ecuación
 
@@ -99,3 +95,6 @@ pendiente (b) de x.
 
 Este último se puede interpretar como "el cambio que se presenta en Y
 por cada unidad que varía X".
+
+Note that the `echo = FALSE` parameter was added to the code chunk to
+prevent printing of the R code that generated the plot.
