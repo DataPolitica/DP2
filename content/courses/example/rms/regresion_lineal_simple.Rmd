@@ -1,0 +1,70 @@
+---
+title: "Regresión Lineal Simple"
+author: "Christian Chiroque"
+date: "14 de julio de 2020"
+output: md_document
+---
+[Data Política](https://www.youtube.com/channel/UCjsP5ejsSyUchRl2oA96J3A)
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Introducción
+
+Te sugiero ver el siguiente **tutorial** y luego aplicar los comandos de esta :
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/-p02G7NXlSk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+### Pasos previos
+
+Solicitamos nuestra base de datos:
+
+```{r}
+library(rio)
+baseSOSS="https://github.com/DataPolitica/salidas/raw/master/Data/trabajadores.sav"
+trabajadores=import(baseSOSS)
+```
+
+Identificamos las variables que tenemos:
+
+```{r}
+names(trabajadores)
+```
+
+### Generamos nuestro modelo de regresión
+
+```{r}
+modelo1=lm(salario_actual~salario_inicial,data=trabajadores)
+summary(modelo1)
+```
+
+
+```{r}
+hist(trabajadores$salario_actual)
+```
+
+Para realizar el análisis debemos seguir los pasos de nuestro flujograma:
+
+
+### Identificamos los coeficientes y construimos la ecuación
+
+```{r}
+modelo1$coefficients
+```
+
+
+Recordemos la forma de la ecuaciÃ³n:
+
+y = a + bx
+
+Entonces, de acuerdo al output, vemos que nuestra ecuación sería de la siguiente manera:
+
+Salario actual = 1928.20576 + (1.90945 * Salario inicial)
+
+En donde: 1928.20576 es nuestro intercepto y 1.90945 es nuestra pendiente (b) de x. 
+
+Este último se puede interpretar como "el cambio que se presenta en Y por cada unidad que varía X". 
+
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
