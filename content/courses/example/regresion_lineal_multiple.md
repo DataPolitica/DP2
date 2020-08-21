@@ -21,9 +21,9 @@ Introducción
 ------------
 
 Te sugiero ver el siguiente **tutorial** y luego aplicar los comandos de
-esta :
+esta página:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-p02G7NXlSk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XtDQD25Ejkc?rel=0&amp;autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 </iframe>
 ### Pasos previos
 
@@ -68,9 +68,32 @@ Identificamos las variables que tenemos:
 Para realizar el análisis debemos seguir los pasos de nuestro
 flujograma:
 
-    hist(trabajadores$salario_actual)
-
-![](regresion_lineal_simple_files/figure-markdown_strict/unnamed-chunk-4-1.png)
+<table style="width:39%;">
+<colgroup>
+<col width="19%" />
+<col width="19%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>Pasos</th>
+<th>Análisis</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Nuestro modelo es válido?</td>
+<td>El p valor de nuestra tabla anova es menor que 0.05, por lo que rechazamos la hipótesis nula (H0:El modelo no es válido) y concluimos que el modelo es válido</td>
+</tr>
+<tr class="even">
+<td>Cuánto explica nuestro modelo?</td>
+<td>Según el R2 ajustado podemos afirmar que nuestro modelo explica el 77% de la variabilidad de la variable dependiente.</td>
+</tr>
+<tr class="odd">
+<td>La variable X aporta al modelo?</td>
+<td>Analizamos la tabla de coeficientes. Vemos que en la línea de nuestra variable independiente, el p valor es menor a 0.05 por lo que rechazamos la hipótesis nula (H0: La variable no aporta al modelo) y concluimos que sí aporta al modelo.</td>
+</tr>
+</tbody>
+</table>
 
 ### Identificamos los coeficientes y construimos la ecuación
 
@@ -96,3 +119,7 @@ por cada unidad que varía X".
 
 Note that the `echo = FALSE` parameter was added to the code chunk to
 prevent printing of the R code that generated the plot.
+
+    boxplot(trabajadores$salario_actual)
+
+![](regresion_lineal_multiple_files/figure-markdown_strict/unnamed-chunk-5-1.png)

@@ -1,12 +1,9 @@
 ---
-title: "Regre Simple"
+title: "Regresión Lineal Múltiple"
 author: "Christian Chiroque"
 date: "14 de julio de 2020"
-output: 
-  md_document:
-  variant: markdown_github
+output: md_document
 ---
-
 [Data Política](https://www.youtube.com/channel/UCjsP5ejsSyUchRl2oA96J3A)
 
 ```{r setup, include=FALSE}
@@ -15,9 +12,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## Introducción
 
-Te sugiero ver el siguiente **tutorial** y luego aplicar los comandos de esta :
+Te sugiero ver el siguiente **tutorial** y luego aplicar los comandos de esta página:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-p02G7NXlSk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/XtDQD25Ejkc?rel=0&autoplay=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ### Pasos previos
 
@@ -42,17 +39,13 @@ modelo1=lm(salario_actual~salario_inicial,data=trabajadores)
 summary(modelo1)
 ```
 
-
 Para realizar el análisis debemos seguir los pasos de nuestro flujograma:
 
-```{r, include=TRUE, fig.cap='Histrogramita', fig.asp=0.7, fig.width=8}
-hist(trabajadores$salario_inicial)
-```
-fff
-
-```{r, include=TRUE}
-boxplot(trabajadores$salario_actual)
-```
+Pasos  | Análisis
+------------- | -------------
+Nuestro modelo es válido?  | El p valor de nuestra tabla anova es menor que 0.05, por lo que rechazamos la hipótesis nula (H0:El modelo no es válido) y concluimos que el modelo es válido
+Cuánto explica nuestro modelo?  | Según el R2 ajustado podemos afirmar que nuestro modelo explica el 77% de la variabilidad de la variable dependiente.
+La variable X aporta al modelo?  | Analizamos la tabla de coeficientes. Vemos que en la línea de nuestra variable independiente, el p valor es menor a 0.05 por lo que rechazamos la hipótesis nula (H0: La variable no aporta al modelo) y concluimos que sí aporta al modelo. 
 
 
 ### Identificamos los coeficientes y construimos la ecuación
@@ -76,3 +69,9 @@ Este último se puede interpretar como "el cambio que se presenta en Y por cada 
 
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+
+
+```{r}
+boxplot(trabajadores$salario_actual)
+```
