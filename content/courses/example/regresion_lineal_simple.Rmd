@@ -41,11 +41,11 @@ summary(modelo1)
 ```
 
 
+Para realizar el análisis debemos seguir los pasos de nuestro flujograma:
+
 ```{r}
 hist(trabajadores$salario_actual)
 ```
-
-Para realizar el análisis debemos seguir los pasos de nuestro flujograma:
 
 
 ### Identificamos los coeficientes y construimos la ecuación
