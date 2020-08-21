@@ -122,4 +122,4 @@ prevent printing of the R code that generated the plot.
 
     boxplot(trabajadores$salario_actual)
 
-![](regresion_lineal_multiple_files/figure-markdown_strict/unnamed-chunk-5-1.png)
+![texto](images/prueba.png)
