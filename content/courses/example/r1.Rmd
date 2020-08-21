@@ -1,5 +1,5 @@
 ---
-title: "Regresión Lineal Simple"
+title: "Regre Simple"
 author: "Christian Chiroque"
 date: "14 de julio de 2020"
 output: md_document
@@ -45,6 +45,11 @@ Para realizar el análisis debemos seguir los pasos de nuestro flujograma:
 
 ```{r, include=TRUE}
 hist(trabajadores$salario_actual)
+```
+fff
+
+```{r, include=TRUE}
+boxplot(trabajadores$salario_actual)
 ```
 
 
