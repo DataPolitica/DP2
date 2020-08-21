@@ -8,7 +8,7 @@ output: md_document
 [Data Política](https://www.youtube.com/channel/UCjsP5ejsSyUchRl2oA96J3A)
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
+knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Introducción
@@ -43,7 +43,7 @@ summary(modelo1)
 
 Para realizar el análisis debemos seguir los pasos de nuestro flujograma:
 
-```{r}
+```{r, include=TRUE}
 hist(trabajadores$salario_actual)
 ```
 
