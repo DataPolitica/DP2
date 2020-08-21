@@ -14,7 +14,6 @@ menu:
 weight: 2
 ---
 
-pelotudos.
 [Data
 Política](https://www.youtube.com/channel/UCjsP5ejsSyUchRl2oA96J3A)
 
@@ -69,13 +68,14 @@ Identificamos las variables que tenemos:
 Para realizar el análisis debemos seguir los pasos de nuestro
 flujograma:
 
-    hist(trabajadores$salario_actual)
+    hist(trabajadores$salario_inicial)
 
-![Image](r1_files/figure-markdown_strict/unnamed-chunk-4-1.png) fff
+![Histrogramita](r1_files/figure-markdown_strict/unnamed-chunk-4-1.png)
+fff
 
     boxplot(trabajadores$salario_actual)
 
-![Image](r1_files/figure-markdown_strict/unnamed-chunk-5-1.png)
+![](r1_files/figure-markdown_strict/unnamed-chunk-5-1.png)
 
 ### Identificamos los coeficientes y construimos la ecuación
 

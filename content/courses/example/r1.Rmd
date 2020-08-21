@@ -2,7 +2,9 @@
 title: "Regre Simple"
 author: "Christian Chiroque"
 date: "14 de julio de 2020"
-output: md_document
+output: 
+  md_document:
+  variant: markdown_github
 ---
 
 [Data Política](https://www.youtube.com/channel/UCjsP5ejsSyUchRl2oA96J3A)
@@ -44,7 +46,7 @@ summary(modelo1)
 Para realizar el análisis debemos seguir los pasos de nuestro flujograma:
 
 ```{r, include=TRUE, fig.cap='Histrogramita', fig.asp=0.7, fig.width=8}
-hist(trabajadores$salario_actual)
+hist(trabajadores$salario_inicial)
 ```
 fff
 
